@@ -98,13 +98,18 @@ if (markerFound == 1) {
 
 <!-- BEGIN: Unity Compiled Assets -->
 <a-assets>
+<a-asset-item id="Model_Asset_obj_0" src="models/11563_gift_box_V3.obj"></a-asset-item>
+<a-asset-item id="Model_Asset_mtl_0" src="models/11563_gift_box_V3.mtl"></a-asset-item>
+
 </a-assets>
 <!-- END: Unity Compiled Assets -->
 <!-- BEGIN: Add Image Target (marker) -->
-<a-marker id="marker" type="pattern" preset="custom" src="pattern-generated_1.patt" url="pattern-generated_1.patt" emitevents="true" button>
+<a-marker id="marker" preset="hiro" emitevents="true" button>
 <!-- END: Add Image Target (marker) -->
 
 <!-- BEGIN: Unity Compiled Objects -->
+<a-entity obj-model="obj: #Model_Asset_obj_0; mtl: #Model_Asset_mtl_0" scale="0.05 0.05 0.05" class="intersectable" position="0.47 -0.02 -0.93" rotation="271.3013 -180 -180" color="#12334A" 
+></a-entity>
 <!-- END: Unity Compiled Objects -->
 
 <!-- BEGIN: Bottom HTML -->
